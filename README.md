@@ -1,4 +1,4 @@
-# Process-Aware Decision Support in Emergency Department Using Predictive Monitoring and LLMs
+# A Process-Driven Analytical Framework for Emergency Departments: A Proof-of-Concept Using Predictive Monitoring and Large Language Models
 
 **Authors:** Roberto Nai, Emilio Sulis, Guido Boella, Adriana Boccuzzi
 
@@ -6,8 +6,13 @@
 
 ## Abstract
 
-In the context of emergency medical care, timely and informed decision-making is critical for both clinical and operational efficiency. This work presents a four-step framework designed to support healthcare professionals and hospital management. Starting with real, anonymized data from hospital information systems (data level), the pipeline involves the application of process mining techniques for both the encoding and the embeddings of event logs (processing level), for predictions with Machine Learning, explainability, and LLM (modeling, analysis, and XAI level) to visualize and compare results for operational decision-making (reporting level). 
-A prototype application was developed as a proof of concept within the emergency department of a medium-sized Italian hospital to support the analysis of patient flow and outcomes in a decision support context. The approach engaged healthcare stakeholders throughout the entire process, from initial development to the validation phase.
+*Background.* Emergency Departments (EDs) are characterized by highly dynamic and variable processes, where gaining timely insight into patient flow and care pathways is essential to support clinical and organizational activities. Process-driven analytical pipelines can contribute to enhancing process visibility and analytical understanding by leveraging routinely collected hospital data in complex healthcare environments.
+
+*Methods.* This study presents a process-driven analytical approach with a general pipeline and its operational realization within a modular application. A proof-of-concept integrates process mining, predictive process monitoring, large language models (LLMs), and explainable artificial intelligence to enable process-aware analysis of Emergency Department data. All components operate within a privacy-preserving, on-premise environment.
+
+*Results.* As a practical instantiation of the general analytical pipeline, the modular application combines process exploration, narrative generation, and demonstrative outcome prediction within a unified dashboard. The results illustrate the construction and enrichment of event logs, the generation of narrative representations from patient trajectories using LLMs, predictive modeling based on both structured features and narrative-based embeddings, and the interpretation of model outputs through explainability techniques. Overall, the demonstrative application indicates the feasibility of integrating heterogeneous analytical techniques within a coherent pipeline to support exploratory and informational analysis of ED processes and patient pathways.
+
+*Conclusion.* The proposed general framework provides analytical understanding of ED workflows without replacing clinical judgment or decision-making responsibility. By integrating predictive analytics, LLM-based representations, and explainability within a single pipeline, the approach establishes a foundation for future extensions toward broader evaluation, additional analytical tasks, and potential operational use in healthcare settings.
 
 ## Code Availability
 ### LLM narratives:
@@ -16,4 +21,3 @@ A prototype application was developed as a proof of concept within the emergency
 
 ## Data Availability
 The event log is not public due to privacy constraints; contact the corresponding author for access (roberto.nai@unito.it).  
-
