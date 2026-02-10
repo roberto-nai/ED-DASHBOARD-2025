@@ -23,4 +23,4 @@
 ### PPM with Embeddings: 
 
 ## Data Availability
-The event log is not public due to privacy constraints; contact the corresponding author for access.<!-- (roberto.nai@unito.it)-_>
+The event log is not public due to privacy constraints; contact the corresponding author for access.<!-- (roberto.nai@unito.it)-->
